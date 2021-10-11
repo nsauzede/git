@@ -2809,7 +2809,7 @@ static int absorb_git_dirs(int argc, const char **argv, const char *prefix)
 		OPT_STRING(0, "prefix", &prefix,
 			   N_("path"),
 			   N_("path into the working tree")),
-		OPT_BIT(0, "--recursive", &flags, N_("recurse into submodules"),
+		OPT_BIT(0, "recursive", &flags, N_("recurse into submodules"),
 			ABSORB_GITDIR_RECURSE_SUBMODULES),
 		OPT_END()
 	};
